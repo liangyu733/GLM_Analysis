@@ -37,3 +37,19 @@ mod1 = df.explain(response="Target", resp_type="categorical")
 
 # Export results
 mod1.out("model_result.csv")
+
+# Fit logistic regression model
+mod1 = df.explain(response="Target", resp_type="categorical")
+
+# Export results
+mod1.out("model_result.csv")
+```
+
+---
+
+## Case Study
+This project demonstrates its functionality using the Kaggle public dataset CustomerTravel.
+A Logistic Regression model was applied to evaluate how explanatory variables influence the binary outcome: whether a user continues using the travel platform (Target = 0) or churns (Target = 1).
+Key result:
+After controlling for other factors, users who are frequent flyers (FrequentFlyer = Yes) have an odds ratio of 5.43 for churn compared to non-frequent flyers (FrequentFlyer = No).
+This indicates that frequent flyers are about 5.4 times more likely to discontinue using the platform, suggesting that the most active travelers show a higher tendency to leave the service.
