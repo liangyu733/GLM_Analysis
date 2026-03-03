@@ -1,4 +1,4 @@
-content = """# Data Analysis Workflow Module
+# Data Analysis Workflow Module
 
 ## Overview  
 This project provides a **Python module** designed for a simple data analysis workflow, applicable to different data types.  
